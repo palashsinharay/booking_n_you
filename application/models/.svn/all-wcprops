@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/testrepo/!svn/ver/991/trunk/Kafil/booking_n_you/application/models
+END
+searchpricerange_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/searchpricerange_model.php
+END
+location_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/testrepo/!svn/ver/842/trunk/Kafil/booking_n_you/application/models/location_model.php
+END
+diningdescriptionlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/diningdescriptionlist_model.php
+END
+hotelimagelist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/hotelimagelist_model.php
+END
+roomtypelist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/roomtypelist_model.php
+END
+regioncentercoordinateslist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/regioncentercoordinateslist_model.php
+END
+activepropertylist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/testrepo/!svn/ver/980/trunk/Kafil/booking_n_you/application/models/activepropertylist_model.php
+END
+words_translation_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/testrepo/!svn/ver/875/trunk/Kafil/booking_n_you/application/models/words_translation_model.php
+END
+chainlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/chainlist_model.php
+END
+user_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/testrepo/!svn/ver/869/trunk/Kafil/booking_n_you/application/models/user_model.php
+END
+destination_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/testrepo/!svn/ver/991/trunk/Kafil/booking_n_you/application/models/destination_model.php
+END
+propertytypelist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/propertytypelist_model.php
+END
+cms_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/testrepo/!svn/ver/822/trunk/Kafil/booking_n_you/application/models/cms_model.php
+END
+hotelpamenity_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/testrepo/!svn/ver/648/trunk/Kafil/booking_n_you/application/models/hotelpamenity_model.php
+END
+spadescriptionlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/spadescriptionlist_model.php
+END
+language_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/testrepo/!svn/ver/812/trunk/Kafil/booking_n_you/application/models/language_model.php
+END
+propertydescriptionlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/propertydescriptionlist_model.php
+END
+user_model_18_01.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/testrepo/!svn/ver/966/trunk/Kafil/booking_n_you/application/models/user_model_18_01.php
+END
+propertyattributelink_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/propertyattributelink_model.php
+END
+admin_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/testrepo/!svn/ver/902/trunk/Kafil/booking_n_you/application/models/admin_model.php
+END
+booking_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/testrepo/!svn/ver/965/trunk/Kafil/booking_n_you/application/models/booking_model.php
+END
+siteconf.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/testrepo/!svn/ver/662/trunk/Kafil/booking_n_you/application/models/siteconf.php
+END
+currency_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/testrepo/!svn/ver/774/trunk/Kafil/booking_n_you/application/models/currency_model.php
+END
+recreationdescriptionlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/recreationdescriptionlist_model.php
+END
+words_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/testrepo/!svn/ver/782/trunk/Kafil/booking_n_you/application/models/words_model.php
+END
+policydescriptionlist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/policydescriptionlist_model.php
+END
+countrylist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/testrepo/!svn/ver/844/trunk/Kafil/booking_n_you/application/models/countrylist_model.php
+END
+attributelist_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/testrepo/!svn/ver/843/trunk/Kafil/booking_n_you/application/models/attributelist_model.php
+END
+site_setting_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/testrepo/!svn/ver/648/trunk/Kafil/booking_n_you/application/models/site_setting_model.php
+END
+country_model.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/testrepo/!svn/ver/648/trunk/Kafil/booking_n_you/application/models/country_model.php
+END

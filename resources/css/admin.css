@@ -1,0 +1,56 @@
+/*------------------------------------------------css document for Admin login page only------------------------------------------*/
+/*------------------------------------------------css for Aircel Tracker modified on 24-06-2010-----------------------------------*/
+/*=====================General========================*/
+*{ padding:0; margin:0;}
+body{
+ 	padding:120px 0 0 0;
+	margin:0;
+	background-color:#2c4d9e;
+	font:normal 12px/15px Verdana, Arial, Helvetica, sans-serif; 
+	color:#000000;
+	}
+td, div, a, h1, h2, h3, h4, h5, h6, p, span, strong, select, textarea, label, input{padding:0;margin:0;}
+a{ text-decoration:none; outline:none;}
+img{border:none;}
+.clear{clear:both;font-size:0;line-height:0;}
+/*========================Main==========================*/
+/*Admin Page*/
+.wrapper{ width:auto; }
+.main_container{
+	width:407px;
+	margin:0 auto;
+	}
+.top_cont{ 
+	background:url(../images/top_bg.png) 0 0 no-repeat; 
+	height:85px;
+	}
+.content_cont{
+	background:url(../images/content_bg.png) 0 0 no-repeat;
+	height:200px;
+	}
+.heading_m{ font:bold 13px/24px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:20px 0 0 112px; text-transform:uppercase; text-align:left}
+.heading_m span{ color:#1a4589; font:bold 18px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.frm_cont{ padding:20px;}
+.field_cont{ width:auto; margin-bottom:20px;}
+.field_cont .field{
+	width:347px;
+	border:none;
+	padding:4px;
+	font:normal 18px/20px Verdana, Arial, Helvetica, sans-serif;
+	color:#808080;
+	outline:none;
+	border:1px solid #bfbfbf;
+	}
+.holer{ overflow:hidden; width:auto;}	
+.btn_cont{ float:left; width:92px;}
+.rem{ float:right; width:110px; padding-top:8px; font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color:#004ca2;}
+.rem_txt{ float:left; display:block; margin-right:4px;}
+.checkbox{ *margin-top:-4px;}
+.footer_cont{ width:auto; padding-top:4px;}
+.footer_cont p{ text-align:center; font:normal 10px/12px Verdana, Arial, Helvetica, sans-serif; color:#aeaeae;}
+.footer_cont p a{ color:#aeaeae;}
+.footer_cont p a:hover{ color:#d8d7d7;}
+.btnlogin{background:url(../images/login_btn.png) 0 0 no-repeat; width:78px; height:27px; border:none; font-size:0px; line-height:0;  cursor: pointer;}
+.btnlogin_h{ background:url(../images/login_btn_h.png) 0 0 no-repeat; width:78px; height:27px; border:none; font-size:0px; line-height:0; cursor: pointer;}
+.msg_cont{ padding-top:7px; height:10px; color:#f32416; font:normal 11px/15px Verdana, Arial, Helvetica, sans-seriff;}		
+/*End of Admin Page*/

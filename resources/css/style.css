@@ -1,0 +1,647 @@
+/* CSS Document */
+*{ padding:0; margin:0;}
+body{
+	margin:0px; padding:0px;
+	background:#000000;
+	font:normal 12px/15px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	}
+	
+img, td, tr, ul, li, ol form, input, h1, h2, h3, h4, h5, h6 {
+	margin:0; padding:0;	
+	}
+img{ border:none;}	
+a{ outline:none; text-decoration:none;}	
+p{ text-align:justify;}
+.spacer{
+	font-size:0px; line-height:0px; clear:both;
+	}
+
+#page{
+	width:1000px;
+	margin:0 auto;
+	background:#2e2e2e url(../images/pagebg.jpg)  0 0 no-repeat;
+	}
+.logo{width:252px; height:30px; margin-left:439px; padding-top:37px;}
+.nav{width:640px; height:20px; margin-left:262px; padding-top:56px;}
+.nav ul{list-style:none; font:bold 12px/20px Verdana, Arial, Helvetica, sans-serif; padding-left:5px;}
+.nav ul li{float:left;}
+.nav ul li a{color:#FFF; text-decoration:none; margin:0 10px; }
+.nav ul li a:hover{color:#2afc2a;}
+.body-area{width:950px; margin-left:29px; padding-top:9px; padding-bottom:30px;}
+.bodyleft{width:222px; float:left; padding-top:13px;}
+.bodyright{width:665px; float:left; /*background:url(../images/rightcon-bg.jpg) 0 0 no-repeat; height:503px;*/}
+.top_bg{ background:url(../images/top-bg.jpg) 0 0 no-repeat; height:11px;}
+.mid_bg{ background:url(../images/mid-bg.gif) 0 0 repeat-y; min-height:480px;/*showing minimum height*/}
+.bott_bg{ background:url(../images/bott-bg.png) 0 0 no-repeat; height:20px;}
+
+/*-------side heading--------*/
+.pageheading{width:52px; float:left; height:191px; padding-left:5px; margin-top:10px; background:url(../images/pageheadingbg.gif) 0 0 no-repeat;}
+.home_h, .about_h, .portfolio_h, .landscaping_h, .garden_h, .allotments_h, .extras_h, .contact_h, .confirmation_h{ 
+	background:url(../images/home_h.jpg) 0 0 no-repeat;
+	float:left;
+	width:52px; 
+	height:191px; 
+	padding-left:5px; 
+	margin-top:10px;
+	}
+.home_h:hover,.about_h:hover, .portfolio_h:hover, .landscaping_h:hover, .garden_h:hover, .allotments_h:hover, .extras_h:hover, .contact_h:hover, .confirmation_h:hover{ background-position:0 100%;}
+
+.about_h{ background:url(../images/about_h.jpg) 0 0 no-repeat;}
+.portfolio_h{ background:url(../images/portfolio_h.jpg) 0 0 no-repeat;}
+.landscaping_h{ background:url(../images/landscaping_h.jpg) 0 0 no-repeat;}
+.garden_h{ background:url(../images/garden_h.jpg) 0 0 no-repeat;}
+.allotments_h{ background:url(../images/allotments_h.jpg) 0 0 no-repeat;}
+.extras_h{ background:url(../images/extras_h.jpg) 0 0 no-repeat;}
+.contact_h{ background:url(../images/contact_h.jpg) 0 0 no-repeat;}
+.confirmation_h{ background:url(../images/confirmation_h.jpg) 0 0 no-repeat;}
+
+/*-------end of side heading--------*/
+.bodyright-content{width:639px; margin-left:13px; padding-top:0px;}
+.landscapingbox_bg, .gardenpacksbox_bg, .allotmentbox_bg{width:222px; height:153px; background:url(../images/landscaping_s.png) 0 0 no-repeat; cursor:pointer; margin-bottom:7px;}
+.landscapingbox_bg:hover, .gardenpacksbox_bg:hover, .allotmentbox_bg:hover{ background-position:0 100%;}
+.gardenpacksbox_bg{ background:url(../images/gardenpacks_s.png) 0 0 no-repeat;}
+.allotmentbox_bg{ background:url(../images/allotments_s.png) 0 0 no-repeat;}
+
+.footer-area{width:660px; margin-left:220px; padding-top:14px;}
+.footerlink{width:660px; height:22px; border-bottom:#324515 1px solid;}
+.footerlink p{font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif; color:#f8ffd6;  padding-bottom:5px; text-align:center;}
+.footerlink p a{text-decoration:none; color:#f8ffd6; }
+.footerlink p a:hover{color:#2afc2a;}
+
+ul.footerNav{font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif;list-style-type:none;padding:0 0 0 7px;margin:0;}
+ul.footerNav li{float:left;color:#f8ffd6;}
+ul.footerNav li a{color:#f8ffd6; margin:0 9px;}
+ul.footerNav li a:hover{color:#2afc2a;}
+
+.developtext{text-align:right; font:normal 11px/20px Verdana, Arial, Helvetica, sans-serif; color:#949ea7; padding-top:10px; }
+/*-------------- Landscaping Page ---------------------------------*/
+
+.boxbg{background:url(../images/landscapring-bg.jpg) 0 0 no-repeat; width:623px; height:105px; margin-bottom:11px;}
+.box-text{width:430px; float:left; padding-left:20px; padding-top:15px;}
+.box-text p{font:normal 12px/16px Verdana, Arial, Helvetica, sans-serif; color:#fff;}
+.box-img{width:153px; float:left; padding-left:20px;}
+.bodyright-content1{width:629px; margin-left:20px; padding-top:26px;}
+
+/*---------------------- Contact Us Page ----------------------------------*/
+
+.googlemap-area{width:360px; height:260px; margin-left:130px; margin-top:20px;}
+.contacttext{width:629px; text-align:center;}
+.contacttext p{font:normal 12px/16px Verdana, Arial, Helvetica, sans-serif; color:#fff;}
+.contacttext p a{text-decoration:none; color:#fff;}
+/*---------------Contact Form------------------*/
+.en_form_container{ width:100%;}
+.en_form_part{ width:100%;}
+.form_content{ width:380px; padding:10px 0;  margin:0 auto; border:4px double #4b4c4c;}
+.form_content h3{ 
+	font:bold 14px/16px Arial, Helvetica, sans-serif;
+	color:#FFFFFF; 
+	margin-bottom:15px;
+	padding-left:15px;
+	}
+.form_content label{ 
+	width:100px; 
+	font:normal 12px/14px Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	float:left;
+	padding-left:15px;
+	}
+.field{
+	width:230px;
+	height:17px;
+	border:1px solid #585858;
+	font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	background-color:#2e3231;
+	padding:2px 0 0 2px; 
+	margin-bottom:5px;
+	}
+.text_area{
+	width:230px; 
+	border:1px solid #585858; 
+	font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	background-color:#2e3231; 
+	padding:2px 0 0 2px; 
+	margin-bottom:5px;
+	}
+.select_field{
+	width:234px; 
+	border:1px solid #585858; 
+	font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	margin-bottom:5px; 
+	background-color:#2e3231;
+	}
+.submit_btn{ 
+	background-color:#4d4d4d;
+	color:#FFFFFF;
+	cursor:pointer;
+	border:2px outset #737474;
+	float:left;
+	margin-right:15px;
+	}
+.submit_btn_holder{ margin-left:115px;}
+.err_txt{ font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color:#FF0000;}
+.body_txt{ margin-bottom:8px;}
+.flux_link{ color:#949ea7; text-decoration:none;}
+/*-------------------------------------------------------------INNER PAGES----------------------------------------------------------------------------*/
+/*-----Common-----*/
+.content_part{
+	padding:30px 25px 30px 25px;
+	line-height:17px;
+	}
+.content_part h1, .content_part_land h1{
+	font:bold 16px/36px Verdana, Arial, Helvetica, sans-serif;
+	/*color:#3F0;*/
+	color:#FFFFFF;
+	margin-bottom:12px;
+	background:url(../images/h_bg.png) 0 0 no-repeat;
+	height:36px;
+	text-align:center;
+	}	
+.content_part h2{
+	font:bold 13px/18px Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom:10px;
+	}
+.content_part h2 span{ font-size:12px; font-weight:normal;}
+.content_part p{ margin-bottom:15px;}
+ 
+ 		
+/*-----Landscaping Now-----*/
+ul.list_1{ 
+	list-style-type:none; 
+	padding:0;
+	margin:0;
+	}
+ul.list_1 li{
+	margin-bottom:10px;
+	background:url(../images/bull.gif) 0 5px no-repeat;
+	padding-left:17px;
+	}
+
+.link_txt{ color:#FFFFFF;}
+.link_txt:hover{ color:#2afc2a;}
+.content_part_land{
+	padding:12px 0 12px 22px;
+	line-height:17px;
+	}
+	
+ul.landscpaing{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	}
+ul.landscpaing li{
+	background:url(../images/land_bg.gif) 0 0 no-repeat;
+	height:105px;
+	margin-bottom:11px;
+	padding-left:25px;
+	} 
+ul.landscpaing li a{ color:#FFFFFF;}
+ul.landscpaing li a:hover{ color:#3eff3e;}		
+ul.landscpaing li.nobottmarg{ margin-bottom:0;}
+.list_container{
+	overflow:hidden;
+	height:100%;
+	}
+.txt_cont{
+	width:425px;
+	float:left;
+	padding-top:12px;
+	margin-right:19px;
+	}
+.pix_cont{	
+	float:left;
+	width:153px;
+	}
+.txt_big{
+	font-size:14px;
+	font-weight:bold;
+	
+}
+/*-----Landscaping Details-----*/
+.land_d_cont{
+	overflow:hidden;
+	height:100%;
+	width:620px;
+	}
+.land_d_cont .pix{ float:left; margin:4px 15px 10px 0;}
+.land_d_cont p{
+	line-height:19px;
+	margin-bottom:10px;
+}
+/*-----Garden Packs-----*/
+.rate_cont{ width:auto; overflow:hidden; height:100%; margin-bottom:10px;}
+ul.rate_list{
+	padding:0 0 0 19px; 
+	margin:0;
+	list-style-type:none;
+	}
+ul.rate_list li{
+	float:left;
+	width:175px;
+	height:147px;
+	background:url(../images/gp_rate_bg.gif) 0 0 no-repeat;
+	margin-right:20px;
+	}
+ul.rate_list li a{ 
+	text-align:center;
+	display:block; 
+	color:#FFFFFF;
+	font:normal 18px/20px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	margin-top:45px;
+	}
+ul.rate_list li a span{
+	font-size:14px;
+	}		
+ul.rate_list li.nor8marg{ margin-right:0;}	
+ul.rate_list li.gold{
+	background-position:0 -147px;
+	}
+ul.rate_list li.platinum{
+	background-position:0 -294px;
+	}
+.garden_desc{
+	width:auto;
+	padding-left:27px;
+	margin-bottom:27px;
+	}
+.garden_pack{
+	background:url(../images/gardenPack_bg.gif) 0 0 no-repeat;
+	height:152px;
+	margin-left:27px;
+	}
+.gardenPack_content{
+	width:auto;
+	padding:7px 0 0 20px;
+	}
+.gardenPack_content p.head{
+	text-decoration:underline;
+	font-weight:bold;
+	}
+.gardenPack_content p{ margin-bottom:0px;!important}	
+.steps_1st ul{ list-style-type:none; padding:0 0 10px 15px; margin:0; overflow:hidden; height:100%; }
+.steps_1st ul li{
+	float:left;
+	margin-right:70px;
+	}
+.steps_1st ul li.normarg{ margin-right:0;}
+.steps_1st .step_pix{ margin-bottom:15px;}
+
+
+.steps_2nd{ overflow:hidden; height:100%;}
+.steps_2nd ul{ list-style-type:none; padding:0 0 10px 50px; margin:0; overflow:hidden; height:100%; }
+.steps_2nd ul li{
+	float:left;
+	margin:0 57px 25px 0;
+	width:225px;
+	}
+.steps_2nd ul li.normarg{ margin-right:0;}
+.steps_2nd .step_pix{ margin-bottom:15px;}
+/*---------front and back garden-----------*/
+.garden_L, .garden_R{
+	width:615px;
+	margin-bottom:15px;
+	}
+.lp_top, .lp_bott{ background:url(../images/lp-top.png) 0 0 no-repeat; height:14px;}
+.lp_bott{ background:url(../images/lp-bott.png) 0 0 no-repeat;}
+.lp_mid{ background:url(../images/lp-mid.png) 0 0 repeat-y;}
+.fp_h{ font:bold 16px/18px Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; text-align:center; margin-bottom:8px!important;}
+/*---------end of front and back garden-----------*/
+.td_bg_1, .td_bg_2{
+	background-color:#666666;
+	padding:2px 0 2px 4px;
+	}
+.td_bg_2{
+	background-color:#434444;
+	}
+.step_cont{
+	/*background-color:#FFFFFF;*/
+	overflow:hidden;
+	height:100%;
+	width:auto;
+	margin-bottom:15px;
+	}	
+.step_cont ul{ list-style-type:none; padding-top:20px;}
+.step_cont ul li{ margin:0 125px 25px 0; width:232px;}
+.step_cont ul li.nor8marg{ margin-right:0;}
+.step_cont ul li a{ border:2px solid #FFF; display:block;}
+.step_cont ul li a:hover{ border:2px solid #43ff35; }
+
+.display_chart{ margin-bottom:15px;}
+.pack_desc{
+	margin-bottom:25px;
+	}
+.pack_desc table{
+	border:1px solid #8c8a8a;
+	}	
+.pack_desc table tr td{
+	background-color:#565656;
+	border-left:1px solid #000000;
+	border-bottom:1px solid #000000;
+	}	
+.btn_cont{ width:250px; float:right; padding-right:19px;}
+.back_btn{ background:url(../images/back_btn.png) 0 0 no-repeat; width:57px; height:24px; display:block; float:right; text-indent:-10000px;}
+.back_btn:hover{ background-position:0 100%;}
+.next_btn{ background:url(../images/next_btn.png) 0 0 no-repeat; width:57px; height:24px; display:block; float:right; text-indent:-10000px; margin-left:10px;}
+.next_btn:hover{ background-position:0 100%;}
+.cart_btn{ background:url(../images/cart_btn.png) 0 0 no-repeat; width:97px; height:24px; display:block; float:right; text-indent:-10000px; font-size:0; line-height:0; margin-left:10px; border:none; cursor:pointer;}
+.cart_btn:hover{ background-position:0 100%;}
+
+.skip_btn{ background:url(../images/skip_btn.png) 0 0 no-repeat; width:57px; height:24px; display:block; float:right; text-indent:-10000px;margin-left:10px;}
+.skip_btn:hover{ background-position:0 100%;}
+.confirm_btn{ background:url(../images/confirm_btn.png) 0 0 no-repeat; width:129px; height:24px; display:block; float:right; text-indent:-10000px;margin-left:10px;}
+.confirm_btn:hover{background-position:0 100%;}
+.freelink{
+	color:#3eff3e;
+	text-decoration:underline;
+	}
+.freelink:hover{
+	text-decoration:none;
+	}	
+.red_txt{ color:#FF3333;}
+.border_pix{ border:1px solid #666666; padding:2px; }
+/*-------Extras-----*/
+.extras_pix_cont{
+	overflow:hidden;
+	height:100%;
+	}
+ul.extras{
+	padding:0 0 0 0px;
+	margin:0;
+	list-style-type:none;
+	}
+ul.extras li{
+	float:left;
+	margin:0 17px 22px 0;
+	}
+ul.extras li.nor8marg{ margin-right:0px;}	
+ul.extras li a{
+	display:block;
+	color:#FFFFFF;
+	font-size:11px;
+	}
+ul.extras li a:hover{
+	text-decoration:none;
+	}	
+ul.extras li a img{
+	display:block;
+	border:1px solid #666666;
+	padding:2px;
+	width:130px;
+	}	
+ul.extras li a span{
+	text-align:center;
+	display:block;
+	width:123px;
+	height:40px;
+	}
+/*-------Portfolio-----*/
+.portfolio_cont{
+	overflow:hidden;
+	height:100%;
+	}
+ul.portfolio{
+	padding:0 0 0 10px;
+	margin:0;
+	list-style-type:none;
+	}
+ul.portfolio li{
+	float:left;
+	/*background:url(../images/album_bg.png) 0 0 no-repeat;*/
+	margin:0 15px 30px 0;
+	/*border:1px solid #666666;*/
+	text-align:center;
+	padding:2px;
+	
+	}
+ul.portfolio li.nor8marg{ margin-right:0;}	
+ul.portfolio li a{ 
+	color:#FFFFFF;
+	border:1px solid #666666;
+	text-decoration:none;
+	width:180px;
+	height:131px; 
+	display:block;
+	}
+ul.portfolio li div{ text-align:center; margin-top:4px;}
+ul.portfolio li a img{
+	/*width:180px;
+	height:131px;*/
+	margin:0;
+	/*border:1px solid #666666;
+	padding:2px;*/
+	}
+.port_left_cont{
+	width:161px;
+	float:left;
+	margin-right:10px;
+	
+	}	
+.port_top, .port_bottom{
+	background:url(../images/port_top_bg.gif) 0 0 no-repeat;
+	height:11px;
+	}	
+.port_mid{
+	background:url(../images/port_mid_bg.gif) 0 0 repeat-y;
+	}
+.port_bottom{
+	background:url(../images/port_bott_bg.gif) 0 0 no-repeat;
+	}
+ul.left_listing{
+	font:bold 14px/16px Verdana, Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	padding:0 0 0 28px; margin:0;
+	}	
+ul.left_listing li{
+	height:28px;
+	}
+ul.left_listing li a {
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:18px;
+	}	
+ul.left_listing li a:hover, ul.left_listing li a.selected{
+	color:#00ff00;
+	}	
+/*-------Portfolio Details-----*/
+.portfolio_cont{
+	overflow:hidden;
+	height:100%;
+	
+	}
+ul.portfolio_d{
+	padding:0 0 0 0px;
+	margin:0;
+	list-style-type:none;	
+	}
+ul.portfolio_d li{
+	float:left;
+	margin:0 16px 30px 0;
+	}
+ul.portfolio_d li.nor8marg{ margin-right:0;}	
+ul.portfolio_d li a{
+	width:200px;
+	height:145px;
+	display:block;
+	border:1px solid #666666;
+	text-align:center;
+	padding:2px;
+	}
+ul.portfolio_d li a img{
+	/*width:200px;
+	height:145px;
+	border:1px solid #666666;*/
+	}
+	
+/*-------garden pack Details-----*/	
+.dimension_cont{
+	width:230px;
+	padding-top:4px;
+	margin:0 auto;
+	}
+.dimension{
+	padding:0;
+	margin:0;
+	/*border:1px solid #ccc;*/
+	overflow:hidden;
+	height:100%;
+	}
+.dimension label{
+	float:left;
+	margin-right:10px;
+	color:#FFF;
+	width:45px;
+	font-size:11px;	
+	}
+.dimension input.txt{ 
+	float:left; 
+	margin-right:7px;
+	background-color:#2d3130;
+	border:1px solid #878686;
+	color:#FFF;
+	width:30px;
+	margin-bottom:6px;
+	font-size:11px;
+	}
+.dimension select{ 
+	float:left;
+	width:56px;
+	border:1px solid #878686;
+	font-size:11px;
+	}
+/*--------- 01-04-2010 --------------*/
+.price_txt{
+	font:bold 11px/14px Verdana, Arial, Helvetica, sans-serif;
+	color:#268e26;
+	}
+.dragonsdenlogo{ margin:10px 0 0 0;}
+ul.garden_desc{ padding:0; margin:0; list-style-type:none;}
+ul.garden_desc li{ background:url(../images/tick.png) 0 50% no-repeat; padding-left:20px; margin-bottom:7px;}
+.required {color: #3F0;}
+.bold_txt{
+	font:bold 14px/17px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-align:center;
+	}
+.dim_instxt{ font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color:#FFF; margin:0 0 5px 65px;}	
+.dim_info{font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color:#CCCCCC; margin-bottom:10px;display:none;}
+.quote_lightbg{
+	background-color:#666666;
+	padding:4px 0;
+	font:bold 16px/18px Verdana, Arial, Helvetica, sans-serif;
+	}
+.quote_darktbg{
+	background-color:#4e4d4d;
+	padding:2px 0;
+	font:bold 16px/18px Verdana, Arial, Helvetica, sans-serif;
+	color:#33ff00;
+	text-align:center;
+	}
+.quote_border{ border:1px solid #818080;}
+
+#alert{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #333333;
+  display: none; 
+  text-align: center; 
+  font-weight: bold;
+  color: #C0FFC0;
+  padding: 10px;
+  }
+.form_content p{
+	color:#00FF00;
+	padding-left:120px;
+	font-size:11px;
+	}
+
+/*ul.gardenFB{
+	list-style-type:none;
+	padding:0 0 0 30px;
+	margin:0;
+	font:normal 20px/22px Arial, Helvetica, sans-serif;
+	}
+ul.gardenFB li{
+	float:left;
+	margin-right:25px;
+	}
+ul.gardenFB li a{
+	background:url(../images/gardenFb_bg.gif) 0 0 no-repeat;
+	color:#FFFFFF;
+	width:262px;
+	height:113px;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	padding-top:80px;
+	}
+ul.gardenFB li a:hover{
+	background-position:0 100%;
+	color:#40ff40;
+	}
+*/
+.planLay{ margin-bottom:10px;}
+.portfolio_head{
+text-align:center;
+font:bold 13px/18px Verdana, Arial, Helvetica, sans-serif;
+}
+/*-------------------01-05-2010---------------------*/
+.btn_bg{
+	background:url(../images/btn_bg.png) 0 0 no-repeat;
+	width:113px;
+	height:36px;
+	font:bold 16px/36px Verdana, Arial, Helvetica, sans-serif;
+	float:left; margin-right:5px;
+	}
+.btn_bg a{color:#3dcd3e; text-align:center; display:block; text-decoration:none;}
+.three_step_gr{
+	width:auto;
+	padding-left:20px;
+	
+	}
+.three_step_gr img{ margin:15px 0;}
+	
+	
+ul.click{ padding:0 0 0 30px; margin:0; list-style-type:none;}
+ul.click li{ float:left; margin-right:47px;}
+ul.click li.nor8marg{ margin-right:0;}
+ul.click li a{ color:#FFFFFF; text-decoration:none;}
+ul.click li a:hover{ color:#2afc2a;}
+.pop_pix{ cursor:pointer; border:2px solid #ff0000;}
+/*--------- 01-06-2010 --------------*/
+.step_cont_new{
+	background-color:#2d3130;
+	overflow:hidden;
+	height:100%;
+	width:auto;
+	margin-bottom:15px;
+	}	
+.step_cont_new ul{ list-style-type:none; padding:10px 0 30px 16px;}
+.step_cont_new ul li{ float:left; margin:0 15px 0 0;}
+.step_cont_new ul li a{ border:2px solid #FFF; display:block;}
+.step_cont_new ul li a:hover{ border:2px solid #43ff35; }
+

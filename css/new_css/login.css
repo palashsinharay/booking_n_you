@@ -1,0 +1,97 @@
+body {
+	background-color: #e2f8fe;
+	margin: 0px;
+}
+.inputbox {
+	background-color: #efefef;
+	height: 30px;
+	width: 364px;
+	border: 1px solid #cccccc;
+}
+.body_whitebg {
+	background-color: #FFFFFF;
+	border: 8px solid #b8e3ef;
+}
+
+.body_content-greysmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #7b7b7b;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.body_heading-bluebig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #256274;
+	text-decoration: none;
+	background-color: #ffe8c2;
+	padding-left: 18px;
+}
+.body_content-grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #353535;
+	text-decoration: none;
+	padding-top: 10px;
+}
+.footer_content-bluesmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #256274;
+	text-decoration: none;
+	padding-right: 48px;
+}
+.footer_contentbluesmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #256274;
+	text-decoration: none;
+}
+
+.login-bg {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: normal;
+color: #393939;
+background-image: url(../../img/login-bg.jpg);
+background-repeat: no-repeat;
+background-position: center top;
+text-align: center;
+vertical-align: middle;
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+height: 30px;
+width: 58px;
+cursor:pointer;
+}
+
+.error{
+	height:auto;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color:#B863E3;
+	font-weight:normal;
+}
+.setFlash{
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	color: #FF0055;
+	font-weight:bold;
+}

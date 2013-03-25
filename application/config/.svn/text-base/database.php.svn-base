@@ -1,0 +1,261 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/*
+
+| -------------------------------------------------------------------
+
+| DATABASE CONNECTIVITY SETTINGS
+
+| -------------------------------------------------------------------
+
+| This file will contain the settings needed to access your database.
+
+|
+
+| For complete instructions please consult the 'Database Connection'
+
+| page of the User Guide.
+
+|
+
+| -------------------------------------------------------------------
+
+| EXPLANATION OF VARIABLES
+
+| -------------------------------------------------------------------
+
+|
+
+|	['hostname'] The hostname of your database server.
+
+|	['username'] The username used to connect to the database
+
+|	['password'] The password used to connect to the database
+
+|	['database'] The name of the database you want to connect to
+
+|	['dbdriver'] The database type. ie: mysql.  Currently supported:
+
+				 mysql, mysqli, postgre, odbc, mssql, sqlite, oci8
+
+|	['dbprefix'] You can add an optional prefix, which will be added
+
+|				 to the table name when using the  Active Record class
+
+|	['pconnect'] TRUE/FALSE - Whether to use a persistent connection
+
+|	['db_debug'] TRUE/FALSE - Whether database errors should be displayed.
+
+|	['cache_on'] TRUE/FALSE - Enables/disables query caching
+
+|	['cachedir'] The path to the folder where cache files should be stored
+
+|	['char_set'] The character set used in communicating with the database
+
+|	['dbcollat'] The character collation used in communicating with the database
+
+|				 NOTE: For MySQL and MySQLi databases, this setting is only used
+
+| 				 as a backup if your server is running PHP < 5.2.3 or MySQL < 5.0.7
+
+|				 (and in table creation queries made with DB Forge).
+
+| 				 There is an incompatibility in PHP with mysql_real_escape_string() which
+
+| 				 can make your site vulnerable to SQL injection if you are using a
+
+| 				 multi-byte character set and are running versions lower than these.
+
+| 				 Sites using Latin-1 or UTF-8 database character set and collation are unaffected.
+
+|	['swap_pre'] A default table prefix that should be swapped with the dbprefix
+
+|	['autoinit'] Whether or not to automatically initialize the database.
+
+|	['stricton'] TRUE/FALSE - forces 'Strict Mode' connections
+
+|							- good for ensuring strict SQL while developing
+
+|
+
+| The $active_group variable lets you choose which connection group to
+
+| make active.  By default there is only one group (the 'default' group).
+
+|
+
+| The $active_record variables lets you determine whether or not to load
+
+| the active record class
+
+*/
+
+
+
+$active_group = 'default';
+
+$active_record = TRUE;
+
+
+
+/*$db['default']['hostname'] = 'localhost';
+
+$db['default']['username'] = 'root';
+
+$db['default']['password'] = '';
+
+$db['default']['database'] = 'booking_n_you';*/
+
+
+
+$db['default']['hostname'] = 'localhost';
+
+$db['default']['username'] = 'root';
+
+$db['default']['password'] = '';
+
+$db['default']['database'] = 'booking_n_you';
+
+
+
+$db['default']['dbdriver'] = 'mysql';
+
+$db['default']['dbprefix'] = '';
+
+$db['default']['tableprefix'] = "booking_";
+
+$db['default']['pconnect'] = TRUE;
+
+$db['default']['db_debug'] = TRUE;
+
+$db['default']['cache_on'] = FALSE;
+
+$db['default']['cachedir'] = '';
+
+$db['default']['char_set'] = 'utf8';
+
+$db['default']['dbcollat'] = 'utf8_general_ci';
+
+$db['default']['swap_pre'] = '';
+
+$db['default']['autoinit'] = TRUE;
+
+$db['default']['stricton'] = FALSE;
+
+
+
+
+
+
+
+$s_tblPre=$db['default']['tableprefix'];
+
+
+
+$db['default']["ACTIVE_PROPERTY_LIST"]  = $s_tblPre."active_property_lists";
+
+$db['default']["ADMINS"]  = $s_tblPre."admins";
+
+$db['default']["AIRPORT_COORDINATES_LISTS"]  = $s_tblPre."airport_coordinates_lists";
+
+$db['default']["AREA_ATTRACTIONS_LISTS "]  =$s_tblPre."area_attractions_lists";
+
+$db['default']["ATTRIBUTE_LISTS"]  = $s_tblPre." attribute_lists";
+
+$db['default']["CHAIN_LISTS"]  = $s_tblPre."chain_lists";
+
+$db['default']["CITY_COORDINATES_LISTS"]  = $s_tblPre."city_coordinates_lists";
+
+$db['default']["CMSPAGES"]  = $s_tblPre."cmspages";
+
+$db['default']["COUNTRIES"]  = $s_tblPre."countries";
+
+$db['default']["COUNTRY_LISTS"]  = $s_tblPre."country_lists";
+
+$db['default']["CURRENCIES"]  = $s_tblPre."currencies";
+
+$db['default']["DINING_DESCRIPTION_LISTS"]  = $s_tblPre."dining_description_lists";
+
+$db['default']["GDS_ATTRIBUTE_LISTS"]  = $s_tblPre."gds_attribute_lists";
+
+$db['default']["GDS_PROPERTY_ATTRIBUTE_LINKS"]  = $s_tblPre."gds_property_attribute_links";
+
+$db['default']["HOTEL_DESTINATIONS"]  = $s_tblPre."hoteldestinations ";
+
+$db['default']["HOTEL_DETAILS"]  = $s_tblPre."hotel_details";
+
+$db['default']["HOTEL_IMAGES"]  = $s_tblPre."hotel_images";
+
+$db['default']["HOTEL_PAMENITIES"]  = $s_tblPre."hotel_pamenities";
+
+$db['default']["HOTEL_RAMENITIES"]  = $s_tblPre."hotel_ramenities";
+
+$db['default']["HOTEL_ROOM_TYPES"]  = $s_tblPre."hotelroomtypes";
+
+$db['default']["HOTEL_SUMMARIES"]  = $s_tblPre."hotel_summaries";
+
+$db['default']["HOTEL_SUPPLIERS"]  = $s_tblPre."hotel_suppliers";
+
+$db['default']["HOTEL_SUMMARIES"]  = $s_tblPre."hotel_summaries";
+
+$db['default']["HOTEL_IMAGE_LISTS"]  = $s_tblPre."hotel_image_lists";
+
+$db['default']["LANGUAGES"]  = $s_tblPre."languages";
+
+$db['default']["META_SETTINGS"]  = $s_tblPre."meta_settings";
+
+$db['default']["MY_BOOKING_DETAILS"]  = $s_tblPre."my_booking_details";
+
+$db['default']["NEIGHBORHOOD_COORDINATES_LISTS"]  = $s_tblPre."neighborhood_coordinates_lists";
+
+$db['default']["PARENT_REGION_LISTS"]  = $s_tblPre."parent_region_lists";
+
+$db['default']["POINTS_OF_INTEREST_COORDINATES_LISTS"]  = $s_tblPre."points_of_interest_coordinates_lists";
+
+$db['default']["POLICY_DESCRIPTION_LISTS"]  = $s_tblPre."policy_description_lists";
+
+$db['default']["PROPERTY_ATTRIBUTE_LINKS"]  = $s_tblPre."property_attribute_links";
+
+$db['default']["PROPERTY_DESCRIPTION_LISTS"]  = $s_tblPre."property_description_lists";
+
+$db['default']["PROPERTY_TYPE_LISTS"]  = $s_tblPre."property_type_lists";
+
+$db['default']["RECREATION_DESCRIPTION_LISTS"]  = $s_tblPre."recreation_description_lists";
+
+$db['default']["PROPERTY_TYPE_LISTS"]  = $s_tblPre."property_type_lists";
+
+$db['default']["REGION_CENTER_COORDINATES_LISTS"]  = $s_tblPre."region_center_coordinates_lists";
+
+$db['default']["REGION_EAN_HOTEL_ID_MAPPINGS"]  = $s_tblPre." region_ean_hotel_id_mappings";
+
+$db['default']["ROOM_TYPE_LISTS"]  = $s_tblPre."room_type_lists";
+
+$db['default']["SEARCH_PRICERANGES"]  = $s_tblPre."search_priceranges";
+
+$db['default']["SETTINGS"]  = $s_tblPre."settings";
+
+$db['default']["SPA_DESCRIPTION_LISTS"]  = $s_tblPre."spa_description_lists";
+
+$db['default']["STATES"]  = $s_tblPre."states";
+
+$db['default']["USERS"]  = $s_tblPre."users";
+
+$db['default']["WHAT_TO_EXPECT_LISTS"]  = $s_tblPre."what_to_expect_lists";
+
+$db['default']["WORDS"]  = $s_tblPre."words";
+
+$db['default']["WORD_TRANSLATIONS"]  = $s_tblPre."wordtranslations";
+
+$db['default']["DESTINATION_DETAILS"]  = $s_tblPre."destination_details";
+
+$db['default']["MY_REVIEW_DETAILS"]  = $s_tblPre."my_account_my_review";
+
+$db['default']["COUNTRY_LATITUDE_LONGITUDE"]  = $s_tblPre."country_latitude_longitude";
+
+
+
+
+
+/* End of file database.php */
+
+/* Location: ./application/config/database.php */

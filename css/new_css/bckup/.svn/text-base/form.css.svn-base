@@ -1,0 +1,54 @@
+.s {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.form_border4side {
+	border: 2px solid #5E696E;
+	padding: 6px;
+}
+.form_main-txt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5E696E;
+	text-align: justify;
+}
+.form_content_grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5E696E;
+	padding-left:10px;
+}
+.form-input-box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4d4d4d;
+	text-decoration: none;
+	background-color: #f6f6f6;
+	height: 26px;
+	width: 200px;
+	border: 1px solid #d3d3d3;
+}
+.form-input-box-small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4d4d4d;
+	text-decoration: none;
+	background-color: #f6f6f6;
+	height: 26px;
+	width: 100px;
+	border: 1px solid #d3d3d3;
+}
+
+.form-txt-area {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4d4d4d;
+	text-decoration: none;
+	background-color: #f6f6f6;
+	width: 97%;
+	border: 1px solid #d3d3d3;
+}

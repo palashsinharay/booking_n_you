@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/testrepo/!svn/ver/965/trunk/Kafil/booking_n_you/application/controllers/admin
+END
+language.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/testrepo/!svn/ver/779/trunk/Kafil/booking_n_you/application/controllers/admin/language.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/testrepo/!svn/ver/648/trunk/Kafil/booking_n_you/application/controllers/admin/index.php
+END
+booking.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/testrepo/!svn/ver/816/trunk/Kafil/booking_n_you/application/controllers/admin/booking.php
+END
+changepassword.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/testrepo/!svn/ver/902/trunk/Kafil/booking_n_you/application/controllers/admin/changepassword.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/testrepo/!svn/ver/648/trunk/Kafil/booking_n_you/application/controllers/admin/login.php
+END
+logout.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/testrepo/!svn/ver/965/trunk/Kafil/booking_n_you/application/controllers/admin/logout.php
+END
+currency.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/testrepo/!svn/ver/779/trunk/Kafil/booking_n_you/application/controllers/admin/currency.php
+END
+siteconfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/testrepo/!svn/ver/901/trunk/Kafil/booking_n_you/application/controllers/admin/siteconfig.php
+END
+admins.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/testrepo/!svn/ver/779/trunk/Kafil/booking_n_you/application/controllers/admin/admins.php
+END
+words_translation.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/testrepo/!svn/ver/875/trunk/Kafil/booking_n_you/application/controllers/admin/words_translation.php
+END
+user.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/testrepo/!svn/ver/806/trunk/Kafil/booking_n_you/application/controllers/admin/user.php
+END
+words.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/testrepo/!svn/ver/782/trunk/Kafil/booking_n_you/application/controllers/admin/words.php
+END
+destination.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/testrepo/!svn/ver/854/trunk/Kafil/booking_n_you/application/controllers/admin/destination.php
+END
+cms.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/testrepo/!svn/ver/822/trunk/Kafil/booking_n_you/application/controllers/admin/cms.php
+END

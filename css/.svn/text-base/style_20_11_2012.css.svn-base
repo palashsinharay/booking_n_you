@@ -1,0 +1,532 @@
+@charset "utf-8";
+/* CSS Document of Zoot Deal */
+/* 	-----------------------------------------------------
+	------------------- General Styles ------------------
+	----------------------------------------------------- */
+* {margin:0; padding:0; outline: none;}
+html, body, div, span, applet, object, iframe,input, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,  th, td {margin:0; padding:0; border:0px; outline:0; font-size:100%; background:transparent;}
+
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+:focus {outline:0;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+table {border-collapse:collapse; border-spacing:0;}
+a, a:hover, a:active, a:focus {outline:none; outline-style:none; outline-width:0;}
+
+img {margin:0; padding:0; outline-style:none; outline-width:0; }
+
+body { padding:0; font-family: "Myriad Pro", Arial, Helvetica, sans-serif; background:#fff url(../images/background.jpg) top repeat-x;}
+
+.clr {font-size:0; height:0; line-height:0; clear:both;}
+.left { float:left;}
+.right {float:right;}
+.right-align { text-align:right}
+.top_margin { margin-top:15px;}
+.top_margin10 { margin-top:10px;}
+
+
+.button_01 { background:url(../images/button_bg1.png) scroll 0 0 no-repeat; width:132px; height:33px; font-weight:bold; font-size:25px; font-family: "Myriad Pro"; color:#FFFFFF; cursor:pointer; line-height:30px; padding-bottom:3px;}
+.button_01:hover { background:url(../images/button_bg1.png) scroll 0 -33px no-repeat}
+.button_02 { background:url(../images/button_bg2.png) scroll 0 0 no-repeat; width:240px; height:33px; font-weight:bold; font-size:25px; font-family: "Myriad Pro"; color:#FFFFFF; cursor:pointer; line-height:30px; padding-bottom:3px;}
+.button_02:hover { background:url(../images/button_bg2.png) scroll 0 -33px no-repeat}
+.button_03 { background:url(../images/button_bg3.png) scroll 0 0  repeat-x; padding:0px 2px;  height:21px; font-weight:bold; font-size:12px; font-family: "Myriad Pro"; color:#FFFFFF; cursor:pointer; line-height:19px; padding-bottom:2px;}
+.button_03:hover { background:url(../images/button_bg3.png) scroll 0 -21px repeat-x}
+
+#wrap { width:1000px; margin:0 auto; background:url(../images/header_bg.png) top no-repeat;}
+
+/********************* TOP CONTACT SECTION **************************/
+
+/**********************HEADER SECTION*******************************/
+#lang_cont { background:#9fc011; padding-top:5px; position:absolute; top:28px; left:0px;width:142px; padding:3px 4px 5px 4px; border-bottom:1px solid #fff; }
+#lang_cont a { color:#FFFFFF; text-decoration:none}
+
+#currency_cont { background:#9fc011; padding-top:5px; position:absolute; top:28px; left:0px;width:142px; padding:3px 4px 5px 4px; border-bottom:1px solid #fff; }
+#currency_cont a { color:#FFFFFF; text-decoration:none}
+
+
+#header {width:976px; margin:0 auto; height:163px;}
+	#header .left_section { width:430px; float:left; height:88px; padding-left:20px; padding-top:22px;}
+	#header .right_section { width:400px; float:right;height:105px; padding-top:5px; position:relative;}
+	#header .dropdown { position:relative;width:142px; color:#FFFFFF; padding:3px 4px 5px; background:#9fc011; float:right; font-size:12px; margin-right:7px;  border-left:1px solid #fff;border-left:1px solid #fff;border-right:1px solid #fff; border-bottom:1px solid #fff;}
+	#header .dropdown p { background:url(../images/drop_arrow.png) right no-repeat; padding-right:20px; line-height:17px; margin-top:3px; cursor:pointer}
+	#header .dropdown p img { vertical-align:middle}
+	#header .facebook_like { font-family:"Myriad Pro"; font-size:12px; color:#000000; margin-top:25px; margin-left:35px;}
+	#header .facebook_like a { color:#0a8ae1; text-decoration:none;}
+	#header .facebook_like a:hover { text-decoration:underline;}
+	#header .facebook_like img { vertical-align:middle;}
+	#header .navigation { height:45px; float:left; margin-top:4px; width:976px;}
+	#header .navigation .nav_left { width:530px; float:left;}
+	#header .navigation .nav_left ul li { list-style:none; padding:0px 20px 0px 20px; background:url(../images/separator.png) top right no-repeat; float:left;}
+	#header .navigation .nav_left ul li a { font-size:16px; color:#FFFFFF; float:left; line-height:40px; display:block; height:45px; text-transform:uppercase; text-decoration:none;  text-align:center;}
+	#header .navigation .nav_left ul li img { float:left; margin:13px 0px 0px 7px; cursor:pointer}
+	#header .navigation .nav_left ul li a:hover { background:url(../images/menu_arrow.png) bottom center no-repeat;}
+	#header .navigation .nav_left ul li a.select { background:url(../images/menu_arrow.png) bottom center no-repeat;}
+	#header .navigation .nav_right { width:380px; padding-right:20px; float:right; font-size:12px; color:#FFFFFF; line-height:42px; text-align:right;}
+	#header .navigation .nav_right a { color:#FFFFFF; text-decoration:none;}
+	#header .navigation .nav_right a:hover { text-decoration:underline;}
+
+
+#content {width:940px; margin:0 auto; min-height:500px; background:#FFFFFF; padding:0px 18px 10px;}
+	#content .left_panel { width:485px; float:left;}
+	#content .right_panel { width:440px; float:left; margin-left:15px;}
+	#content .left_panel_02 { width:228px; float:left; margin-top:15px;}
+	#content .right_panel_02 { width:697px; float:left; margin-left:15px;margin-top:15px;}
+	
+.page_nav { font-size:12px; color:#000000; padding-top:14px;}
+	.page_nav p {color:#0a8ae1;}
+	.page_nav p img { vertical-align:middle; margin:0px 4px;}
+	.page_nav label { color:#000000}
+	.page_nav span {color:#7a7a7a;}
+	.page_nav a {color:#232323; text-decoration:none;}
+	.page_nav a:hover { text-decoration:underline}
+
+/**********************FOOTER SECTION*******************************/	
+
+#footer { background:url(../images/footer_bg.jpg) top repeat-x; min-height:260px;}
+	#footer .footer_main { width:976px; margin:0 auto;}
+	#footer p { font-size:12px; color:#232323; margin-top:10px;}
+	#footer p a {color:#232323; text-decoration:none;}
+	#footer p a:hover { color:#057dd7}
+	#footer p img { vertical-align:middle;}
+	#footer h6 { color:#057dd7; font-size:14px; font-weight:normal; margin-top:8px;}
+	#footer h6 a { text-decoration:none;color:#057dd7; margin-right:20px;}
+	#footer h6 a:hover { color:#000000}
+	
+	
+/**********************SEARCH BOX*******************************/
+
+#search_box { background:#a6ca04 url(../images/search_bg.jpg) bottom repeat-x; padding:17px 21px; margin-top:15px; font-family:"Myriad Pro"; min-height:242px;}
+	#search_box h3 { font-size:25px; color:#FFFFFF; height:28px; }
+	#search_box h3 img { vertical-align:middle;}
+	#search_box .label_01 { margin-top:20px; float:left; width:440px;}
+	#search_box  p {font-size:14px; color:#000; line-height:16px;}
+	#search_box .label_01 input[type="text"] { background:url(../images/input_bg.png) no-repeat; width:433px; height:22px; margin-top:5px; padding:0px 5px 2px 5px; font-size:14px; color:#333333; line-height:22px; }
+	#search_box .label_02 { margin-top:15px; width:212px;}
+	#search_box .label_02 .select_box { width:88px; float:left; margin-right:4px; margin-top:5px;}
+	#search_box .label_03 { width:134px; float:left; margin-top:20px; margin-right:13px;}
+	#search_box .label_03 p { margin-bottom:5px;}
+	#search_box .label_04 { width:290px; float:left; margin-top:20px;font-size:14px; color:#000;}
+	#search_box .label_05 { width:132px; float:right; margin-top:12px;}
+	#search_box .row_heading { width:90px; float:left; font-size:14px;margin-top:20px; color:#000000; font-weight:bold;}
+	#search_box .row_heading span { font-weight:normal; font-size:12px;}
+	#search_box .additional_row { margin-top:10px; float:left;font-size:13px; width:437px; padding:2px 5px 2px 2px;}
+	#search_box .additional_row .row_cell { width:90px; float:left; line-height:23px; }
+	#search_box .additional_row .row_cell2 {width:90px; float:right; text-align:right;line-height:23px;}
+	#search_box .additional_row .row_cell2 a { color:#FFFFFF; text-decoration:none;}
+	#search_box .additional_row .row_cell2 a:hover { text-decoration:underline}
+	#search_box h6 { font-size:14px; margin-top:10px;}
+	#search_box h6 a { color:#FFFFFF; text-decoration:none; font-weight:normal}
+	#search_box h6 a:hover {  text-decoration:underline}
+	
+.blue_box {-webkit-border-radius:2px; -moz-border-radius:2px; padding:5px 10px 10px 10px; border:1px solid #dae7f9; background:#eef4fc;  }	
+	
+.place_box { margin-top:15px;}
+	.place_box .picture { position:relative; height:138px;}
+	.place_box .picture h2 { font-size:36px; color:#FFFFFF; position:absolute; bottom:10px; left:20px;}
+	.place_box .box_row { float:left; background:url(../images/border_img.png) bottom repeat-x; padding-bottom:12px; width:463px; margin-top:11px;}
+	.place_box .box_row .cell_01 { width:42px; float:left; margin-left:5px;}
+	.place_box .box_row .cell_01 img { border:1px solid #fff;}
+	.place_box .box_row h4 a { font-size:20px; color:#057dd7; font-weight:normal; text-decoration:none; line-height:20px;}
+	.place_box .box_row h4 a:hover { text-decoration:underline}
+	.place_box .box_row h4 img { vertical-align:middle;}
+	.place_box .box_row p { color:#666; font-size:11px; margin-top:3px; font-family:Arial, Helvetica, sans-serif}
+	.place_box .box_row p a {color:#666; text-decoration:none;}
+	.place_box .box_row p a:hover { color:#000000}
+	.place_box .box_row p img { vertical-align:middle;}
+	.place_box .box_row .booking { color:#9cbc17; font-size:12px;margin-top:3px;}
+	.place_box .box_row .booking img { vertical-align:middle;}
+	.place_box .box_row .discrip { color:#232323; font-size:12px;margin-top:5px;}
+	.place_box .box_row .cell_02 { width:280px; float:left; margin-left:10px;}
+	.place_box .box_row .cell_03 { width:105px; float:right; font-size:20px; text-align:right;color:#057dd7;}
+	.place_box .box_row .cell_03 span { font-size:14px; display:block;}
+	.place_box .box_row .cell_03 span a { color:#c90206; font-size:12px;}
+	.place_box .box_row .cell_03 span a:hover { text-decoration:none}
+	
+.more_link { font-size:12px; margin-top:10px;color:#057dd7;}
+	.more_link a { color:#057dd7; text-decoration:none;}
+	.more_link a:hover { text-decoration:underline;}
+
+.viewed_box .heading_left {width:300px; float:left; font-size:20px; color:#000000; font-weight:bold; margin-top:10px;}
+	.viewed_box .heading_right {width:64px; float:right; padding:4px 5px 3px 5px; border:1px solid #fff; background:#d8e6f9; font-size:12px;margin-top:8px;}
+	.viewed_box .heading_right a:hover { color:#7a7a7a}
+	.viewed_box .heading_right a { color:#000000; text-decoration:none; vertical-align:middle; }
+	.viewed_box .heading_right a img { vertical-align:middle;}
+	.viewed_box .view_row { background:url(../images/border_img.png) top repeat-x; padding-top:10px; float:left; margin-top:5px; width:418px;}
+	.viewed_box .view_row .cell_01 { width:80px; float:left; margin-left:3px;}
+	.viewed_box .view_row .cell_01 img { border:10px solid #fff;}
+	.viewed_box .view_row .cell_02 { width:300px; margin-left:10px; float:left;}
+	.viewed_box .view_row .cell_03 { width:12px; margin-right:5px; float:right;}
+	.viewed_box .view_row h5 a { font-size:20px; color:#057dd7; font-weight:normal; text-decoration:none; line-height:22px;}
+	.viewed_box .view_row h5 a:hover { text-decoration:underline}
+	.viewed_box .view_row h6 { font-size:12px; color:#000000; font-weight:normal;margin-top:4px; line-height:12px;}
+	.viewed_box .view_row h6 img {  vertical-align:middle;}
+	.viewed_box .view_row p { color:#7a7a7a; font-size:12px; margin-top:4px;line-height:12px;}
+	.viewed_box .view_row p a { color:#7a7a7a; text-decoration:none}
+	.viewed_box .view_row p a:hover {  color:#000000}
+	.viewed_box .view_row p img { vertical-align:middle;}
+	.viewed_box .view_row .rating { margin-top:2px;}
+	.viewed_box .view_row .booking { color:#9cbc17; font-size:12px;margin-top:4px;line-height:12px;}
+	.viewed_box .view_row .booking img { vertical-align:middle;}
+	
+.map_section h4 { font-size:20px; color:#000000; line-height:28px;}
+	.map_section .heading { color:#9cbc17; font-size:14px; margin-top:10px;}
+	.map_section .heading a {color:#9cbc17; text-decoration:none;}
+	.map_section .heading a:hover { text-decoration:underline;}
+	.map_section .country_box { width:99px; float:left; margin-left:5px; font-size:13px; margin-top:10px; margin-bottom:10px;}
+	.map_section .country_box ul li { list-style:none; margin-top:5px;}
+	.map_section .country_box ul li a { color:#057dd7; text-decoration:none;}
+	.map_section .country_box ul li a:hover { text-decoration:underline}
+	.map_section .map_box { background:url(../images/border_img.png) top repeat-x; padding-top:10px; margin-top:5px;}
+	.map_section h5 { font-size:16px; color:#057dd7; font-weight:normal; margin-bottom:10px; margin-top:5px;}
+	.map_section span { font-size:12px; color:#000000; padding-right:10px;}
+	.map_section span img { vertical-align:middle}
+	.map_section p { color:#7a7a7a;  font-size:12px; margin-top:10px;}
+	.map_section .availability { background:url(../images/border_img.png) bottom repeat-x; padding-bottom:10px; margin-top:5px;}
+	.map_section .availability a { color:#057dd7; font-size:12px;}
+	.map_section .availability a:hover { text-decoration:none;}
+	
+.destination h4 { font-size:20px; color:#000000; line-height:20px; padding-left:10px;}
+	.destination .descrip_box { width:200px; margin-left:5px; float:left; margin-top:30px;}
+	.destination .descrip_box .img_box { width:82px; float:left;}
+	.destination .descrip_box .img_box img { border:4px solid #d8e6f9;}
+	.destination .descrip_box .text_box { width:108px; margin-left:10px; float:left;}
+	.destination .descrip_box h5 a { font-size:20px; color:#057dd7; font-weight:normal; text-decoration:none; line-height:22px;}
+	.destination .descrip_box h5 a:hover { text-decoration:underline;}
+	.destination .descrip_box p { color:#000; font-size:12px; margin-top:2px;}
+	.destination .descrip_box .country { color:#ff4e00; font-size:14px;}
+	.destination .descrip_box .booking { color:#9cbc17; font-size:12px;margin-top:2px;line-height:12px;}
+	
+.booking_box h3 { font-size:28px; color:#ff4e00; font-weight:normal;line-height:30px; padding-left:10px;}
+	.booking_box ul li { list-style:none; background:url(../images/icon_04.png) top left no-repeat; padding:0px 0px 20px 50px; margin-top:12px; border-bottom:1px solid #d8e6f9;}
+	.booking_box h5 {color:#057dd7; font-size:20px;   font-weight:normal;}
+	.booking_box p { font-size:15px; color:#000000}
+	.booking_box p a {color:#057dd7;}
+	.booking_box p a:hover { text-decoration:none;}
+.subscribe h4 { font-size:20px; font-weight:normal; color:#057dd7;}
+	.subscribe label { width:80px; float:left; font-size:12px; color:#000000; margin-top:17px;}
+	.subscribe input[type="text"] { width:328px; font-size:14px; line-height:22px; padding-left:2px; height:24px; float:left; background:url(../images/input_bg2.png) no-repeat; margin-top:15px;}
+.country_heading { margin-top:15px;}
+	.country_heading h3 { font-size:20px; color:#000000; background:url(../images/indian_flag.png) right no-repeat; line-height:24px; padding-left:10px;}
+	
+.recent_book { margin-top:15px;}
+	.recent_book h4 { font-size:20px; color:#000000; line-height:20px; padding-left:10px;}
+	.recent_book .cont_row { border-top:1px solid #d8e6f9; padding-top:10px; width:440px; float:left; margin-top:10px;}
+	.recent_book .cont_row .left_box { width:90px; margin-left:5px; float:left; color:#057dd7; font-size:20px;}
+	.recent_book .cont_row .left_box span { font-size:14px; display:block;}
+	.recent_book .cont_row .right_box { width:335px; margin-left:10px; float:left;}
+	.recent_book .cont_row h5 a {font-size:20px; color:#057dd7; font-weight:normal; text-decoration:none; line-height:22px;}
+	.recent_book .cont_row h5 a:hover { text-decoration:underline}
+	.recent_book .cont_row h6 { font-size:12px; color:#7a7a7a; font-weight:normal;margin-top:4px; line-height:12px;}
+	.recent_book .cont_row h6 a { color:#057dd7; text-decoration:none; font-style: italic;}
+	.recent_book .cont_row h6 a:hover { text-decoration:underline;}
+	.recent_book .cont_row p {color:#000; font-size:12px; margin-top:8px; line-height:18px;}
+	.recent_book .cont_row .booking { color:#9cbc17; font-size:12px;margin-top:5px;line-height:12px;}
+	.recent_book .cont_row .booking span { color:#c90000}
+	
+.facebook_box { margin-top:15px; border:1px solid #333333; padding:10px;}
+	
+.inner_nav { margin-top:10px;}
+	.inner_nav ul li { list-style:none; padding:3px 6px; margin-bottom:10px;}
+	.inner_nav ul li:hover { background:#a5c905;}
+	.inner_nav ul li.select { background:#a5c905;}
+	.inner_nav ul li a { text-decoration:none; color:#232323;} 
+	.inner_nav ul li img { vertical-align:middle; margin-right:15px;}
+	
+.inner .inner_heading { border-bottom:1px solid #d8e6f9; padding-bottom:5px;}
+	.inner .inner_heading .left_part { width:550px; float:left; font-size:25px; color:#000000; font-weight:bold;}
+	.inner .inner_heading .right_part { width:90px; float:right; text-align:right; margin-top:5px;}
+	.inner .inner_heading .right_part a { text-decoration:none; font-size:14px; color:#057dd7}
+	.inner .inner_heading .right_part img { vertical-align:middle;}
+	.inner .inner_cont { position:relative}
+	.inner .inner_cont p { color:#232323;  font-size:12px; line-height:18px;}
+	.inner .inner_cont p a {color:#057dd7; text-decoration:none;}
+	.inner .inner_cont p a:hover { text-decoration:underline;}
+	.inner .inner_cont ol { margin-left:50px;}
+	.inner .inner_cont ol li {list-style:none; background:url(../images/arrow3.png) left no-repeat; padding-left:12px; font-size:12px; margin-top:7px;}
+	.inner .inner_cont ol li a {color:#057dd7; text-decoration:none;}
+	.inner .inner_cont ol li a:hover { text-decoration:underline}
+	.inner .inner_cont .account_row { border-bottom:1px solid #d8e6f9; padding-bottom:5px; padding-top:2px;}
+	.inner .inner_cont .account_row input[type="text"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; color:#7a7a7a; padding-left:2px; height:24px; width:238px;  margin-top:5px;} 
+	.inner .inner_cont .account_row h5 { color:#057dd7; font-size:20px; font-weight:normal;}
+	.inner .inner_cont .account_row h6 { color:#057dd7; font-size:12px; font-style: italic; font-weight:normal; margin-top:10px; padding-bottom:5px;}
+	.inner .inner_cont #details_tabing { padding-top:8px;}
+	.inner .inner_cont #details_tabing ul li { float:left; list-style:none; border:1px solid #fff; font-size:12px;  padding:3px 5px; margin-right:10px; cursor:pointer}
+	.inner .inner_cont #details_tabing ul li:hover { border:1px solid #d8e6f9; background:#eef4fc;}
+	.inner .inner_cont #details_tabing ul li.select { border:1px solid #d8e6f9; background:#eef4fc;}
+	.inner .inner_cont #details_tabing ul li a { text-decoration:none; color:#057dd7;}
+	.inner .inner_cont #details_tabing ul li img { vertical-align:middle;}
+	.inner .inner_cont .change_password { padding-top:2px; position:relative;}
+	.inner .inner_cont .view_all { width:100px; position:absolute; right:0px; top:20px; text-align:right}
+	.inner .inner_cont .view_all a { font-size:18px; color:#057dd7; text-decoration:none;}
+	.inner .inner_cont .view_all a:hover { text-decoration:underline}
+	.inner .inner_cont .change_password label { width:150px; font-size:14px; color:#000000; float:left; margin-top:15px;}
+	.inner .inner_cont .change_password input[type="password"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:12px;} 
+	.inner .inner_cont .change_password input[type="text"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:12px;} 
+	
+.signup_box { padding:10px 20px 20px 20px;}
+	.signup_box .close_btn { width:30px; height:30px; position:absolute; right:-10px; top:-10px;}
+	.signup_box h3 { font-size:25px; color:#000000; }
+	.signup_box h3 a {color:#057dd7; text-decoration:none; font-size:14px; font-weight:normal;}
+	.signup_box .descrip { color:#057dd7; font-size:14px; line-height:18px; padding-right:135px; text-align:justify; margin-top:20px; margin-bottom:10px;}
+	.signup_box label { width:120px; float:left; color:#000000; font-size:14px;margin-top:12px;}
+	.signup_box input[type="text"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:10px;}
+	.signup_box input[type="password"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:10px;}
+	.signup_box p { color:#232323;  font-size:12px; line-height:24px;}
+	.signup_box p a {color:#057dd7; text-decoration:none;}
+	.signup_box p a:hover { text-decoration:underline}
+	
+.signin_box { padding:10px 20px 20px 20px; background:#a5c905}
+	.signin_box .close_btn { width:30px; height:30px; position:absolute; right:-10px; top:-10px;}
+	.signin_box h3 { font-size:25px; color:#fff; }
+	.signin_box label { width:66px; float:left; color:#000000; font-size:14px;margin-top:12px;}
+	.signin_box input[type="text"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:10px;}
+	.signin_box input[type="password"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:10px;}
+	.signin_box label a { color:#FFFFFF; text-decoration:none;}
+	.signin_box label a:hover { text-decoration:underline;}
+	
+.reservation { margin-top:25px;}
+	.reservation .tab { background:url(../images/heading_bg.png) no-repeat; height:34px;padding:0px 10px;}
+	.reservation .tab a { display:block; color:#000000; font-size:14px; text-decoration:none; width:230px; float:left; text-align:center; height:34px; line-height:30px;}
+	.reservation .tab a:hover { background:#a5c905; color:#FFFFFF}
+	.reservation .tab a.select { background:#a5c905; color:#FFFFFF}
+	.reservation .heading {border-bottom:1px solid #d8e6f9; padding-bottom:2px; margin-top:20px;}
+	.reservation .heading .left_part { width:460px; float:left; font-size:25px; color:#000000; font-weight:bold;}
+	.reservation .heading .right_part { width:450px; float:right; text-align:right; margin-top:5px;}
+	.reservation h2 { background:url(../images/heading_bg.png) no-repeat; height:34px; font-size:20px;color:#057dd7; padding:0px 10px; font-weight:normal; line-height:32px; margin-top:15px;}
+	.reservation label { width:150px; margin-left:10px; font-size:14px; color:#000000; float:left; margin-top:15px;}
+	.reservation input[type="text"] { background:url(../images/input_bg3.png) no-repeat; font-size:14px; line-height:22px; padding-left:2px; height:24px; width:238px; float:left; margin-top:12px;} 
+	.reservation .comment_cell { width:500px; float:left; margin-top:10px; margin-left:10px; font-size:12px; padding-top:5px; font-style:italic;color:#057dd7}
+	.reservation .comment_cell_02 { width:500px; float:left; margin-top:10px;  font-size:12px; padding-top:5px; color:#057dd7}
+	.reservation textarea { background:url(../images/textarea_bg.png) no-repeat; resize:none; width:238px; height:103px; padding-left:2px; float:left; margin-top:12px; border:none;}
+	.reservation .descrip_cell { width:550px; float:left; margin-top:12px;}
+	.reservation .descrip_cell h6 { font-size:14px;color:#057dd7; font-weight:normal;margin-top:5px;}
+	.reservation .descrip_cell h6 span { color:#ff4e00}
+	.reservation .reservation_cont { float:left; margin-top:10px;}
+	.reservation .reservation_cont .cell_01 { width:167px; float:left;}
+	.reservation .reservation_cont .cell_01 img { border:1px solid #dfe6ea}
+	.reservation .reservation_cont .cell_02 { width:550px; float:left; margin-left:10px;font-size:12px; color:#000000; line-height:20px;}
+	.reservation .reservation_cont .cell_02 h5 a { color:#057dd7; font-weight:normal; font-size:20px; text-decoration:none;}
+	.reservation .reservation_cont .cell_02 h5 a:hover { text-decoration:underline}
+	.reservation .reservation_cont .cell_02 p { font-size:12px; color:#000000; line-height:20px;}
+	.reservation .reservation_cont .cell_02 p a {  color:#057dd7; font-style:italic; text-decoration:none;}
+	.reservation .reservation_cont .cell_02 p a:hover { text-decoration:underline;}
+	.reservation .reservation_cont .cell_03 { width:210px; float:left; margin-left:3px; font-size:18px; color:#9cbc17;}
+	.reservation .reservation_cont .cell_03 img { vertical-align:middle}
+	.reservation .reservation_cont .price { border:1px solid #d8e6f9; margin-bottom:5px; background:#eef4fc; width:230px; padding:0px 10px 0px 15px; height:34px; line-height:32px; float:left; margin-top:5px; font-size:20px; font-weight:bold; color:#057dd7;}
+	.reservation .reservation_cont .price span { color:#ff4e00;}
+	.reservation .reservation_cont .cell_04 { width:200px; float:left; font-size:12px; margin-top:10px; margin-left:10px;}
+	.reservation .reservation_cont .cell_04 a { color:#057dd7; font-style:italic; text-decoration:none;}
+	.reservation .reservation_cont .cell_04 a:hover { text-decoration:underline}
+	.reservation .comment { background:url(../images/comment_bg.png) left no-repeat; height:44px; padding-left:60px; font-size:14px; color:#0c91e6; line-height:42px; margin-top:10px;}
+
+.hetel_search {  background:#a4c708 url(../images/search_bg.jpg) bottom repeat-x; padding:10px 5px 15px 10px; position:relative;}
+	.hetel_search h3 { font-size:25px; color:#FFFFFF; height:28px; margin-bottom:10px;}
+	.hetel_search p {font-size:14px; color:#000; line-height:16px;}
+	.hetel_search p a { color:#057dd7;}
+	.hetel_search p a:hover { text-decoration:none;}
+	.hetel_search input[type="text"] { background:url(../images/input_bg4.png) no-repeat; width:189px; height:22px; margin-top:5px; padding:0px 5px 2px 5px; font-size:12px; color:#333; line-height:22px; }
+	.hetel_search label { width:65px; float:left; font-size:14px; color:#000000; margin-top:10px;}
+	.hetel_search .label_01 { width:134px; float:left; margin-top:10px;}
+	.hetel_search .select_box { width:88px; float:left; margin-right:4px; margin-top:5px;}
+	.hetel_search .label_02 { width:134px; margin-top:5px;}
+	.hetel_search h6 { font-size:11px; margin-top:5px;}
+	.hetel_search h6 span { font-weight:normal; padding-left:5px;}
+	.hetel_search h6 a { color:#FFFFFF; font-weight:normal; text-decoration:none; font-size:12px;}
+	.hetel_search h6 a:hover { text-decoration:underline}
+	.hetel_search .pop_box { background:#b3c8e5; z-index:1000; width:380px; border:3px solid #486b9a; padding:10px 10px; min-height:120px; position:absolute; left:10px; bottom:-60px;}
+	.hetel_search .pop_box h5 { text-align:right; font-size:14px;  margin-bottom:5px;}
+	.hetel_search .pop_box h5 a {color:#057dd7; text-decoration:none;}
+	.hetel_search .pop_box .pop_heading { width:90px; float:left; font-size:14px; font-weight:bold;}
+	.hetel_search .pop_box .pop_row { float:left; margin-top:10px; font-size:12px; width:380px;}
+	.hetel_search .pop_box .pop_row .pop_cell {width:90px; float:left;}
+	.hetel_search .pop_box .pop_row .pop_cell2 {width:90px; float:right; text-align:right;}
+	.hetel_search .pop_box .pop_row .pop_cell2 a { color:#057dd7; text-decoration:none}
+	.hetel_search .pop_box .pop_row .pop_cell2 a:hover { text-decoration:underline;}
+	
+.filter { margin-top:15px;}
+	.filter h3 { font-size:20px; color:#000000; line-height:30px;}
+	.filter h4 { background:url(../images/border_img.png) top repeat-x; padding-top:8px; color:#057dd7; font-size:18px; margin-top:10px; font-weight:normal; margin-bottom:10px;}
+	.filter h4 span { font-size:12px;}
+	.filter h4 img { vertical-align:middle}
+	.filter table td { font-size:12px; color:#000000; padding:2px 0px;}
+	.filter table td span { color:#057dd7;}
+	.filter .inner_box {background:url(../images/border_img.png) top repeat-x; padding-top:5px; margin-top:5px;}
+	.filter .inner_box h6 {  font-size:14px; font-weight:normal; color:#000000; margin-top:8px;}
+	.filter .inner_box p { font-size:12px;}
+	.filter .inner_box p a { color:#057dd7; font-size:12px; text-decoration: underline; line-height:16px;}
+	.filter .inner_box p a:hover { text-decoration:none;}
+	.filter .viewed_row {background:url(../images/border_img.png) bottom repeat-x; padding-bottom:10px; padding-top:10px;}
+	.filter .viewed_row .img_box { width:54px; float:left;}
+	.filter .viewed_row .img_box img { border:4px solid #fff;}
+	.filter .viewed_row .text_box { width:145px; float:left; margin-left:5px; position:relative;}
+	.filter .viewed_row .text_box .close_btn { position:absolute; right:0px; top:1px;}
+	.filter .viewed_row h5 a { font-size:20px; font-weight:normal; color:#057dd7; text-decoration:none;}
+	.filter .viewed_row h5 a:hover { text-decoration:underline}
+	.filter .viewed_row .review { font-size:12px; color:#7a7a7a; line-height:12px; margin-top:5px;}
+	.filter .recent_book {background:url(../images/border_img.png) top repeat-x; padding-top:8px; margin-top:10px; float:left;}
+	.filter .recent_book .img_cell { width:30px; float:left}
+	.filter .recent_book .text_cell { width:170px; float:left; margin-left:5px;}
+	.filter .recent_book h5 { line-height:12px;}
+	.filter .recent_book h5 a { font-size:12px; color:#057dd7; text-decoration:none; font-weight:normal;}
+	.filter .recent_book h5 a:hover { text-decoration:underline;}
+	.filter .facebook_like h4 { color:#003580; font-size:18px; background:none !important}
+	
+.booking { color:#9cbc17; font-size:12px;margin-top:3px;}
+	.booking img { vertical-align:middle;}
+	
+.delete_all {background: none repeat scroll 0 0 #D8E6F9;border: 1px solid #FFFFFF;font-size: 12px;margin-top: 8px;padding: 4px 5px 3px;width: 64px;}
+	.delete_all a { color:#000000; text-decoration:none;}
+	.delete_all a:hover {color:#7a7a7a;}
+
+.hotel_cont .heading { margin-bottom:10px; float:left; width:697px;}
+	.hotel_cont .heading h2 {color:#057dd7; font-size:20px; line-height:22px;}
+	.hotel_cont .heading .left_part { width:550px; float:left;}
+	.hotel_cont .heading .right_part { width:130px; float:right; text-align:right;}
+	.hotel_cont .heading .right_part a { color:#057dd7; text-decoration:none; font-size:12px;}
+	.hotel_cont .heading .right_part a:hover { text-decoration:underline}
+	.hotel_cont .heading .right_part img { vertical-align:middle;}
+	.hotel_cont .shorting_bar { background:url(../images/heading_bg.png) right no-repeat; height:34px; float:left;}
+	.hotel_cont .shorting_bar .left_cell { width:72px; float:left; background:#0988e0; height:34px; text-align:center; color:#FFFFFF; line-height:30px; font-size:14px;}
+	.hotel_cont .shorting_bar .right_cell { width:625px; float:left;}
+	.hotel_cont .shorting_bar ul li { list-style:none; padding:0px 8px; float:left; height:34px;border-left:1px solid #eef4fc}
+	.hotel_cont .shorting_bar ul li:hover { background:#a5c905;}
+	.hotel_cont .shorting_bar ul li.select { background:#a5c905;}
+	.hotel_cont .shorting_bar ul li.select a { color:#FFFFFF; background:url(../images/arrow_dn2.png) right no-repeat;}
+	.hotel_cont .shorting_bar ul li a { font-size:14px; color:#000000; padding-right:10px; display:block; height:34px; line-height:30px; text-decoration:none;}
+	.hotel_cont .shorting_bar ul li a:hover { color:#FFFFFF; background:url(../images/arrow_dn2.png) right no-repeat;}
+	.hotel_cont .hotel_info { float:left; width:697px; margin-top:15px; border-bottom:1px solid #d8e6f9; padding-bottom:10px;}
+	.hotel_cont .hotel_info .img_box { width:90px; float:left;}
+	.hotel_cont .hotel_info .text_box { width:595px; float:left; margin-left:12px; position:relative;}
+	.hotel_cont .hotel_info .text_box .review_tag  { width:125px; position:absolute; right:0px; top:0px; color:#057dd7; text-align:right;}
+	.hotel_cont .hotel_info .text_box .review_tag span { font-size:12px;}
+	.hotel_cont .hotel_info .text_box  h3 {color:#057dd7; font-size:20px; font-weight:normal; line-height:20px;}
+	.hotel_cont .hotel_info .text_box  h3 a {color:#057dd7;   text-decoration:none;}
+	.hotel_cont .hotel_info .text_box  h3 a:hover { text-decoration:underline;}
+	.hotel_cont .hotel_info .text_box p { font-size:12px; color:#000000; margin-top:5px; line-height:16px;}
+	.hotel_cont .hotel_info .text_box p span { color:#7a7a7a}
+	.hotel_cont .hotel_info .text_box p a {color:#057dd7; text-decoration:none; font-style:italic;}
+	.hotel_cont .hotel_info .text_box p a:hover { text-decoration:underline;}
+	.hotel_cont .hotel_info .text_box .listing { background:url(../images/heading_bg2.png) top no-repeat; margin-top:10px;}
+	.hotel_cont .hotel_info .text_box .listing table th { font-size:12px; height:31px; padding:0px 10px;}
+	.hotel_cont .hotel_info .text_box .listing table td { border-bottom:1px solid #d8e6f9; padding:7px 10px; font-size:11px;}
+	.hotel_cont .hotel_info .text_box .listing table td a { color:#7a7a7a; text-decoration:underline;}
+	.hotel_cont .hotel_info .text_box .listing table td a:hover { text-decoration:none;}
+	.hotel_cont .hotel_info .text_box .listing .blue {color:#057dd7;}
+	.hotel_cont .hotel_info .text_box .listing .red {color:#ef0000;}
+	
+.hotel_details h3 { font-size:20px;color:#057dd7;}
+	.hotel_details h3 a {color:#057dd7; text-decoration:none;}	
+	.hotel_details .section_01 {background:url(../images/border_img.png) top repeat-x; padding-top:8px; margin-top:10px; position:relative;}	
+	.hotel_details .section_01 .btn_box { width:134px; position:absolute; right:0px; top:10px;}
+	.hotel_details .section_01 h5 a {color:#057dd7;   text-decoration:none; font-weight:normal;}
+	.hotel_details .section_01 h5 a:hover { text-decoration:underline;}
+	.hotel_details h6 { font-size:12px; color:#000000; line-height:18px; font-weight:normal; position:relative;}
+	.hotel_details h6 a {color:#057dd7; text-decoration:none; font-style:italic; position:relative;}
+	.hotel_details h6 a:hover { text-decoration:underline}
+	.hotel_details .review_tab { background:url(../images/heading_bg.png) right no-repeat; height:34px; margin-top:5px;}
+	.hotel_details .review_tab ul { margin-left:0px !important;}
+	.hotel_details .review_tab ul li { float:left; list-style:none; cursor:pointer; color:#000000; font-size:14px;  line-height:32px;}
+	.hotel_details .review_tab ul li a { color:#000; text-decoration:none; display:block; float:left;height:34px;padding-left:15px; padding-right:15px;}
+	.hotel_details .review_tab ul li a:hover { background:#a5c905; color:#FFFFFF}
+	.hotel_details .review_tab ul li a.select { background:#a5c905; color:#FFFFFF}
+	.hotel_details .review_tab .left_cell { width:145px; float:left; height:34px; background:#a5c905; color:#fff; font-size:14px;line-height:32px; text-align:center;}
+	.hotel_details .review_tab .right_cell { width:auto; float:left; line-height:32px; color:#000000; font-size:14px; padding-left:15px;}
+	
+	.hotel_details .hotel_descrip { width:697px; float: left; margin-top:10px;}
+	.hotel_details .hotel_descrip p { font-size:12px; color:#7a7a7a; line-height:18px; text-align:justify;}
+	.hotel_details .hotel_descrip p span { color:#e90000}
+	.hotel_details .hotel_descrip .left_section { width:165px; float:left;}
+	.hotel_details .hotel_descrip .right_section { width:520px; float:left; margin-left:12px; position:relative;}
+	.hotel_details .hotel_descrip .right_section .review_tag { width:130px; position:absolute; right:0px; top:0px;color:#057dd7; font-size:12px; text-align:right;}
+	.hotel_details .hotel_descrip .right_section .review_tag a {color:#057dd7; text-decoration:underline;}
+	.hotel_details .hotel_descrip .right_section .review_tag a:hover { text-decoration:none;}
+	.hotel_details .hotel_descrip .right_section .review_tag h5 { font-size:20px; color:#057dd7; font-weight:normal;}
+	.hotel_details .hotel_descrip .right_section ul { width:312px;}
+	.hotel_details .hotel_descrip .right_section ul li { list-style:none; width:40px; height:40px; float:left; margin-right:4px; margin-bottom:4px;}
+	.hotel_details .hotel_descrip .facility { width:700px; float:left; margin-top:10px;}
+	.hotel_details .hotel_descrip .facility .cell_01 { width:270px; float:left;  font-size:12px; color:#057dd7; line-height:32px; border:1px solid #d8e6f9; height:34px; background:#eef4fc; padding:0px 10px;}
+	.hotel_details .hotel_descrip .facility .cell_01 img { vertical-align:middle;}
+	.hotel_details .hotel_descrip .facility .cell_02 { width:auto; float:left; font-size:12px; color:#9cbc17; margin-left:15px; margin-top:10px;}
+	.hotel_details .hotel_descrip h2 { border:1px solid #d8e6f9; height:28px; line-height:26px; padding-left:10px; background:#eef4fc; font-size:20px; font-weight:normal;color:#057dd7; margin-top:10px;}
+	.hotel_details .hotel_descrip h2 span { font-size:14px;}
+	.hotel_details table {border-collapse:collapse; margin-top:10px;}
+	.hotel_details table thead th { border:1px solid #d8e6f9;background:#eef4fc; color:#232323; padding:8px; font-size:12px;}
+	.hotel_details table td {border-right:1px solid #d8e6f9; border-bottom:1px solid #d8e6f9; padding:8px; font-size:12px;}
+	.hotel_details table td a {color:#057dd7; text-decoration:none; font-size:12px;}
+	.hotel_details .img_box { width:60px; height:60px; float:left; position:relative;}
+	.hotel_details .img_box .plus { position:absolute; right:5px; bottom:5px;}
+	.hotel_details .text_box { width:220px; margin-left:8px; float:left;}
+	.hotel_details .green { color:#9cbc17;}
+	.hotel_details .policy_row { border-bottom:1px solid #d8e6f9; padding-bottom:10px; margin-top:10px; float:left;}
+	.hotel_details .policy_row .left_cell { width:130px; float:left; padding-left:5px; font-size:14px; color:#057dd7;}
+	.hotel_details .policy_row .right_cell { width:550px; float:left; margin-left:10px; font-size:12px; color:#7a7a7a;}
+	.hotel_details ul { margin-left:10px; margin-top:10px;}
+	.hotel_details ul li { list-style:none; font-size:14px; color:#057dd7; line-height:20px;}
+	.hotel_details .privacy_link { font-size:12px; color:#e90000; margin-top:15px; padding-left:10px;}
+	.hotel_details .privacy_link a { color:#e90000}
+	.hotel_details .privacy_link a:hover { text-decoration:none;} 
+	
+.paging { border-bottom:1px solid #d8e6f9; border-top:1px solid #d8e6f9; padding:4px 0px 5px; }
+	.paging a { text-decoration:none; font-size:12px;color:#057dd7; text-decoration:none}
+	.paging a:hover { color:#000000}
+	.paging span { font-size:12px;}
+	
+.how_it_works  h2 { font-size:25px; color:#000000; border-bottom:1px solid #d8e6f9; padding-bottom:5px; margin-top:5px;}	
+	.how_it_works p {color: #232323; font-size: 12px; line-height: 18px; margin-top:10px;}
+.booking_list { margin-top:15px; margin-bottom:15px;}
+	.booking_list table { border-collapse:collapse;}
+	.booking_list table th { background:#eef4fc; border:1px solid #dae7f9; height:25px; font-size:12px; padding:5px;}
+	.booking_list table td  { padding:5px; border-bottom:1px solid #dae7f9; font-size:12px;}
+	.booking_list h5 a { color:#057dd7; text-decoration:none; font-size:16px; font-weight:normal}
+	.booking_list h5 a:hover { text-decoration:underline;}
+	.booking_list span {color:#057dd7;}
+	
+.review_cont { width:695px; margin-top:15px;}	
+	.review_cont h3 { font-size:18px; font-weight:normal; color:#171717; margin-bottom:8px;}
+	.review_cont .review_report { background:#eef4fc; padding:10px;; font-size:12px; color:#000000}	
+	.review_cont .review_report .cell_01 { width:154px; float:left;}
+	.review_cont .review_report .cell_02 { width:180px; float:left; margin-left:10px; padding-top:30px;}
+	.review_cont .review_report .cell_03 { width:300px; float:left; margin-left:10px; margin-right:20px;}
+	.review_cont .review_report .score { background:url(../images/score_bg.png) no-repeat; text-align:center; height:66px; width:154px; font-size:48px; color:#FFFFFF; font-weight:bold;}
+	.review_cont .review_report h6 {  font-size:14px; margin-top:5px; font-weight:normal;}
+	.review_cont .review_report p { font-size:12px;}
+	.review_cont .review_report table td { border-right:none; padding:5px 5px;}
+	.review_cont .review_row {border-bottom:1px solid #dae7f9; padding-bottom:10px; margin-top:10px;}
+	.review_cont .review_row .review_cell_01 { width:60px; float:left;}
+	.review_cont .review_row .review_cell_02 { width:110px; float:left; margin-left:10px;}
+	.review_cont .review_row .review_cell_03 { width:400px; float:left; margin-left:10px;}
+	.review_cont .review_row .review_cell_04 { width:73px; float:right; font-size:24px; color:#fff; height:34px; background:url(../images/point_bg.png) no-repeat; height:34px; text-align:center; font-size:24px;}
+	.review_cont .review_row h6 {  font-size:12px; color:#057dd7}
+	.review_cont .review_row p { font-size:12px;}
+	.review_cont .review_row h5 {color:#057dd7; font-size:16px;}
+	
+.map_tooltip { width:200px; height:40px; padding:5px; background:#fbebbe; border:1px solid #cfac46; position:absolute; right:0px; top:15px; display:none;}	
+	
+	
+.review_tabing { margin-top:15px;}	
+	.review_tabing ul li { list-style:none; float:left; margin-right:10px;}
+	.review_tabing ul li a { font-size:18px; color:#057dd7; text-decoration:none;}
+	.review_tabing ul li.select { font-weight:bold}
+	.review_tabing ul li a span {  font-size:12px; color:#000}
+	
+.review_tab_cont {}	
+
+.post_review	{ width:280px; float:left;}
+	.post_review label { width:110px; float:left; font-size:14px; margin-top:10px;}	
+	.post_review input[type="text"] { width:90px; background:url(../images/input_main.png) repeat-x; margin-top:10px; border:1px solid #c8d2e0; height:22px; float:left; margin-left:5px;}
+	.post_review span { width:50px; font-size:11px; color:#666666; float:left; margin-top:15px; margin-left:10px;}
+.post_review2 { width:400px; float:right; padding-top:10px;}
+
+.reservation .descrip_cell h5 {color:#333333; font-size:14px; font-weight:normal;}
+
+
+.label_01 .suggestionsBox2 {width:443px; overflow-x:hidden; position:absolute; left:226px; top:308px; display:none; font-family:Arial, Helvetica, sans-serif;}
+.label_01 .additional_row {padding:2px 0 2px 0;}
+.arrow_autocom{height:8px; overflow:auto;}
+
+.suggestionList {margin:0px; font-size:12px; padding:0px; background-color:#ffffff; border:1px solid #98B61E; color:#000000; height:150px; overflow:auto;}
+.suggestionList .autocomplete_link {margin:0px;	padding: 3px 5px; color:#000000; cursor: pointer; display:block;}
+.suggestionList .autocomplete_link:hover {background-color:#B0D3F3; color:#022960;}
+/*.suggestionsBox {width:420px; overflow-x:hidden; position:absolute; left:448.92px; top:824px; display:none; }*/
+

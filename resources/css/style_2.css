@@ -1,0 +1,130 @@
+/* CSS Document */
+
+/*=====================General========================*/
+body{
+	margin:0px; padding:0px;
+	background:url(../images/bak-bg.jpg) repeat-x #badcff;
+	font:normal 12px/18px "Arial";
+	color:#296f91;
+	}
+p, img, ul, li, td, tr, form, input, h1, h2, h3, h4, h5, h6, table {
+	margin:0; padding:0;	
+	}
+
+h1{ 
+	padding:0px; margin:0px; 
+}
+
+h2{ 
+	padding:0px; margin:0px;
+}
+
+img{ 
+	border:none;
+	}	
+a{ 
+	outline:none;
+	}
+	
+form{ 
+	font-family:"verdana"; font-size:12px; font-weight:normal; color:#fff;  margin:0px;
+}
+
+
+label{ 
+	padding:15px 10px 0px 20px; color:#9e9e9e; font-family:"Tahoma"; font-size:12px;
+	}
+		
+.spacer{
+	font-size:0px; line-height:0px; clear:both; padding:0px; margin:0px;
+	}
+	
+/*========================Main==========================*/
+
+.main{
+	padding:20px 0px 0px 0px; margin:0px;
+	}
+	
+	
+/*======================== BLUE BOX ==========================*/
+
+.blue-bx-bg{
+	padding:0px; margin:0px; width:821px;  background:url(../images/blue-bx-bg.jpg) repeat-y;
+	}
+	
+.blue-bx-header{
+	padding:11px 0px 0px 0px; margin:0px; width:821px; height:217px; background:url(../images/blue-bx-header.jpg) no-repeat;
+	}
+	
+.blue-bx-bottom{
+	padding:0px; margin:0px; width:821px; height:11px; background:url(../images/blue-bx-bottom.jpg) no-repeat;
+	}
+
+/*======================== Client BOX ==========================*/		
+.client-bx{
+	padding:0px; margin:0px; width:500px; height:200px; border:1px solid #5da0ca; border-left:none; background:url(../images/admin-panel-img.jpg) no-repeat left #fff;
+	}
+
+/*======================== Login BOX ==========================*/	
+.login-bx{
+	padding:10px; margin:0px; width:265px; height:200px; border:1px solid #5da0ca; background-color:#fff; 
+	}
+	
+.para_login-bx{
+	padding:0 10px; margin:20px 0px 0px 0px; width:260px; border:0px solid #5fa0ca; background-color:#fff; font:normal 11px/12px "Arial"; color:#333; 
+	}
+	
+.para_login-bx td{
+	padding:0p 5px; margin:0px;
+	}
+	
+.para_login-bx label{ 
+	font:normal 12px/14px "Arial"; 
+	color:#000; 
+	float:left;
+	padding:0px; margin:0px;
+	}
+	
+.field{
+	width:140px;
+	height:17px;
+	border:1px solid #bebebc;
+	font:normal 11px/14px "Arial"; 
+	color:#000;
+	background-color:#f8f8f6;
+	padding:2px 0 0 2px; 
+	margin-bottom:5px;
+   }
+   
+.text_area{
+	width:140px; 
+	border:1px solid #bebebc; 
+	font:normal 11px/14px "Arial";
+	color:#000; 
+	padding:2px 0 0 2px; 
+	margin-bottom:5px;
+	background-color:#f8f8f6;
+	}
+	
+
+/*======================== Footer css==========================*/		
+.footer{
+	padding:0px; margin:0px;  
+	}
+
+
+.footer p{
+	padding:0px 20px; margin:0px; font:normal 11px/12px "Arial"; color:#757575;
+	}
+	
+.footer p a{
+	padding:0px 20px; margin:0px; font:normal 11px/12px "Arial"; color:#757575; text-decoration:none;
+	}
+	
+.footer p a:hover{
+	padding:0px 20px; margin:0px; font:normal 11px/12px "Arial"; color:#757575; text-decoration:underline;
+	}
+	
+	
+.added-btn{ background:url(../images/sign-in-b.png) no-repeat;  width:85px; height:27px; margin:5px; cursor:pointer;
+	}

@@ -1,0 +1,11 @@
+<?php
+$z = 0;
+			for($m=0,$t=1; $t <= count($room_group_child_arr); $t++,$m++){
+				for($n = 1; $n<= $room_group_child_arr[$t-1]; $n++){
+				
+					//echo "&nbsp;&nbsp;&nbsp;";
+					//echo $room_group_child_ages_arr[$z];		
+					$z = $z+1;	
+				}		
+				echo "<br />";
+			}?>

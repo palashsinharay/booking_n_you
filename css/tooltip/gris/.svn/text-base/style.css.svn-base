@@ -1,0 +1,88 @@
+table.cute-balloon-gray
+{
+	color:#444;
+	border:0;
+	background:none;
+}
+
+table.cute-balloon-gray td
+{
+}
+
+table.cute-balloon-gray span
+{
+}
+
+table.cute-balloon-gray td img
+{
+}
+
+table.cute-balloon-gray span.noroeste
+{
+    background:url(no.png) no-repeat;
+    width:27px;
+    height:27px;
+}
+
+table.cute-balloon-gray span.noreste
+{
+    background:url(ne.png) no-repeat;
+    width:27px;
+    height:27px;
+}
+
+table.cute-balloon-gray span.sureste
+{
+    background:url(se.png) no-repeat;
+    width:27px;
+    height:27px;
+}
+
+table.cute-balloon-gray span.suroeste
+{
+    background:url(so.png) no-repeat;
+    width:27px;
+    height:27px;
+}
+
+table.cute-balloon-gray td.norte
+{
+    background:url(norte.png) repeat-x;
+    height:27px;
+}
+
+table.cute-balloon-gray td.este
+{
+    background:url(este.png) repeat-y;
+}
+
+table.cute-balloon-gray td.oeste
+{
+    background:url(oeste.png) repeat-y;
+}
+
+table.cute-balloon-gray td.sur
+{
+    background:url(sur.png) repeat-x;
+    height:27px;
+}
+
+table.cute-balloon-gray span.pso
+{
+    background:url(pso.png) no-repeat;
+    height:27px;
+    width:100px;
+}
+
+table.cute-balloon-gray td.pse
+{
+    background:url(pse.png) no-repeat;
+}
+
+table.cute-balloon-gray td.content
+{
+    background:url(bg.png);
+    padding:0px;
+    width:300px;
+    color:#fff;
+}

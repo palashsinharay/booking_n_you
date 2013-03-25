@@ -1,0 +1,104 @@
+.admin-input-box {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4d4d4d;
+	text-decoration: none;
+	background-color: #f6f6f6;
+	height: 26px;
+	width: 320px;
+	border: 1px solid #d3d3d3;
+}
+.body_content-greybig{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #5e696e;
+	text-decoration: none;
+}
+.body_content-grey {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #4d4d4d;
+	text-decoration: none;
+}
+#xsnazzy {background: transparent; margin:0; width:100%;}
+.xb1, .xb2, .xb3, .xb4 {display:block; overflow:hidden;}
+.xb1, .xb2, .xb3 {height:1px;}
+.xb2, .xb3, .xb4 {background:#f0f0f0; border-left:5px solid #f0f0f0; border-right:5px solid #f0f0f0;}
+.xb1 {margin:0 5px; background:#f0f0f0;}
+.xb2 {margin:0 3px; border-width:6px;}
+.xb3 {margin:0 2px;}
+.xb4 {height:2px; margin:0 1px;}
+.xboxcontent {
+    display:block;
+	background:#ffffff;
+	border-top-width: 1px;;
+	border-right-width: 6px;
+	border-bottom-width: 1px;;
+	border-left-width: 6px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #f0f0f0;
+	border-right-color: #f0f0f0;
+	border-bottom-color: #f0f0f0;
+	border-left-color: #f0f0f0;}.footer_content-bluesmall {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #256274;
+	padding-right: 38px;
+}
+.submit-button-bg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #f6f6f6;
+	text-decoration: none;
+	background-image: url(../../img/submit-button-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: center;
+	vertical-align: middle;
+	height: 26px;
+	width: 58px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+
+a.body_greylight-link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #b8b8b8;
+	text-decoration: none;
+}
+
+a.body_greylight-link:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #b8b8b8;
+	text-decoration: none;
+}
+
+.error{
+	height:auto;
+	vertical-align:middle;
+	text-align:left;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color:#E93F15;
+	font-weight:normal;
+}
+.setFlash{
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	font-size: 16px; 
+	color: #FF0055;
+	font-weight:bold;
+}
